@@ -1,0 +1,107 @@
+/* @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css 1.2k"); */
+.container-1{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding:0 20px;
+}
+
+.rounded{
+    border-radius: 50% !important;
+    height: 40px;
+}
+.notify{
+    margin-top: 5px;
+    height: 30px;
+}
+.container-2{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding:0 30px;
+}
+.bg-violet{
+    background-color: rgb(91, 91, 223);
+}
+.navicon{
+    height: 20px;
+    margin-right: 5px;
+}
+button>h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+.advance{
+    height: 20px;
+    width: 20px;
+}
+.squareicon{
+    margin-top: 1px;
+    height: 16px;
+    margin-right: 5px;
+}
+.selection{
+    min-height: 540px;
+    background-color: #eaeaea;
+    padding: 30px 50px 30px  50px;
+}
+
+.blurred {
+    filter: blur(20px);
+  }
+.text-muted{
+    font-size: 15px;
+    font-weight: 500;
+}
+.container-3{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 30px;
+    min-height: 250px;
+}
+
+.taskbtn{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+
+}
+.popup{
+    width: 700px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: left;
+    padding: 0 30px 30px;
+    color: #333;
+    display: none;
+    transition: trasform 0.4s, top 0.4s;
+}
+.open-popup{
+    border:1px solid black;
+    display: block ;
+    top: 20%;
+    left: 30%;   
+}
+body#openPopup .active{
+    filter: blur(20px);
+}
+.table{
+    border-top: 1px solid var(--bs-table-border-color);
+
+}
+
+.copyrights{
+    /* border: 1px solid black; */
+
+    height: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+.copyrights p{
+    margin: 0;
+}
+.bg-primary{
+    background-color: blue; 
+}
